@@ -4,6 +4,7 @@ class Main {
     
     if (age < 18 && age <= 17 ){
       //if age is less than 18 you cannot vote
+      //AND if age is less than or equal to 17 you still cannot vote
       System.out.println("You are old enough to vote");
     }else {
       System.out.println("You are too young to vote if age is...");
