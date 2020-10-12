@@ -17,6 +17,7 @@ class Main {
       //Ages 1 to 17 cannot vote since if else statement printed "You are too young to vote if age is"
       System.out.print(a + ",");
       //age will accelerate to the number 17
+     
     }
   }
 }
