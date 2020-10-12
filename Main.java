@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 class Main {
-  public static void main(String[] args) {
+  public static void main(String[] args){
     int age = 18;
     
     if (age < 18 && age != 18 ){
@@ -13,7 +15,7 @@ class Main {
     }
     for (int a = 1; a < 18; a++){
       //Ages 1 to 17 cannot vote since if else statement printed "You are too young to vote if age is"
-      System.out.println(a + "");
+      System.out.print(a + ",");
       //age will accelerate to the number 17
     }
   }
