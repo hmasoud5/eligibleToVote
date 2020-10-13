@@ -4,7 +4,7 @@ class Main {
   public static void main(String[] args){
     int age = 17;
     
-    if (age < 18 && age != 18 || age>=18 ){
+    if (age < 18 && age != 18 || age>=17 ){
       System.out.println("You are not eligble to vote if age is...");
       //You are too young to vote if the if statement says age is less than 18 or less than or equal to 17
       for (int a = 1; a < 18; a++){
